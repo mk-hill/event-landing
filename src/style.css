@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-concert {
+  font-family: 'Concert One', cursive;
+}
+
+.bck-black {
+  background: #303030;
+}
+.bck-white {
+  background: #ffffff;
+}
+.bck-red {
+  background: #aa1b08;
+}
+.bck-yellow {
+  background: #ffd000;
+}
+
+.iconImage {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.center-wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px 0px;
+  transition: all 300ms ease-in;
+}
+
+header .header-logo {
+  flex-grow: 1;
+}
+header .header-logo-branding {
+  font-size: 40px;
+}
+
+header .header-logo-title {
+  text-transform: uppercase;
+}
