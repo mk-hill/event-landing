@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Featured from './components/Featured';
 import './style.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{ height: '2000px', background: 'orange' }}>
         <Header />
-        <p>Hello World</p>
+        <Featured />
       </div>
     );
   }
