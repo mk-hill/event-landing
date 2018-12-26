@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Featured from './components/Featured';
+import Featured from './components/featured';
 import './style.css';
 
 class App extends Component {
