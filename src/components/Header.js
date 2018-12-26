@@ -9,13 +9,6 @@ class Header extends Component {
   state = {
     showHeader: false,
     isNavOpen: false,
-    navTitles: [
-      'Event Countdown',
-      'About Event',
-      'Highlights',
-      'Pricing',
-      'Location',
-    ],
   };
 
   componentDidMount() {
@@ -30,8 +23,9 @@ class Header extends Component {
     this.setState({ isNavOpen: bool });
   }
 
-  render() {
-    const { showHeader, isNavOpen, navTitles } = this.state;
+  render(props) {
+    const { showHeader, isNavOpen } = this.state;
+    const { navTitles } = this.props;
     return (
       <AppBar
         position="fixed"

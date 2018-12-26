@@ -52,7 +52,9 @@ class Countdown extends Component {
               <div className="countdown-tag">Min</div>
             </div>
             <div className="countdown-item">
-              <div className="countdown-time">{secs}</div>
+              <div className="countdown-time">
+                {secs < 10 ? `0${secs}` : secs}
+              </div>
               <div className="countdown-tag">Sec</div>
             </div>
           </div>

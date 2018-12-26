@@ -283,3 +283,36 @@ header .header-logo-title {
 .pricing-inner-wrapper .pricing-buttons {
   text-align: center;
 }
+
+.location-wrapper {
+  position: relative;
+}
+
+.location-tag {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.location-tag div {
+  background: #2c2c2c;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 220px;
+  margin: 0 auto;
+  font-size: 29px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+footer {
+  padding: 50px 0px;
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+  background: red;
+}
+
+footer .footer-copyright {
+  font-size: 18px;
+}
