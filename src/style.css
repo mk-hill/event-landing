@@ -74,3 +74,40 @@ header .header-logo-title {
   padding: 21px 70px 0px 70px;
   text-transform: uppercase;
 }
+
+.countdown-wrapper {
+  position: absolute;
+  bottom: 0px;
+  color: #ffffff;
+}
+
+.countdown-wrapper .countdown-title {
+  background: #b91d08;
+  font-size: 19px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.countdown-wrapper .countdown-bottom {
+  display: flex;
+  background: #aa1b08;
+  padding: 10px 0 10px 20px;
+}
+
+.countdown-wrapper .countdown-time {
+  max-width: max-content !important;
+  font-size: 70px;
+  border-right: 1px solid #c42e1b;
+  margin-right: 14px;
+  padding-right: 49px;
+}
+.countdown-wrapper .countdown-item:last-child .countdown-time {
+  border: none;
+}
+
+.countdown-wrapper .countdown-tag {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 7px;
+}

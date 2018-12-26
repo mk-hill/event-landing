@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from 'react-slick';
-import { Backdrop } from '@material-ui/core';
 
 const Carousel = ({ images }) => {
   const settings = {
