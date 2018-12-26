@@ -15,7 +15,6 @@ const Carousel = ({ images }) => {
       style={{
         overflow: 'hidden',
         height: `${window.innerHeight}px`,
-        backgroundColor: 'red',
       }}
     >
       <Slider {...settings}>
