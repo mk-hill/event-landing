@@ -7,6 +7,7 @@ import SideNav from './SideNav';
 
 class Header extends Component {
   state = {
+    showHeader: false,
     isNavOpen: false,
     navTitles: [
       'Event Countdown',
@@ -17,17 +18,25 @@ class Header extends Component {
     ],
   };
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    this.setState({ showHeader: window.scrollY > 100 });
+  };
+
   toggleDrawer(bool) {
     this.setState({ isNavOpen: bool });
   }
 
   render() {
-    const { isNavOpen, navTitles } = this.state;
+    const { showHeader, isNavOpen, navTitles } = this.state;
     return (
       <AppBar
         position="fixed"
         style={{
-          backgroundColor: '#303030',
+          backgroundColor: showHeader ? '#303030' : 'transparent',
           boxShadow: 'none',
           padding: '.5rem 0',
         }}
