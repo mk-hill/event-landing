@@ -227,3 +227,59 @@ header .header-logo-title {
   font-size: 18px;
   font-weight: 300;
 }
+
+.pricing-section {
+  padding: 70px 0px;
+}
+
+.pricing-section h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+}
+
+.pricing-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pricing-wrapper .pricing-item {
+  flex-grow: 1;
+  width: 33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.pricing-wrapper .pricing-inner-wrapper {
+  border: 2px solid #ffa800;
+  padding: 50px 20px;
+}
+
+.pricing-inner-wrapper .pricing-title {
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid #ffa800;
+  padding-bottom: 20px;
+}
+.pricing-inner-wrapper .pricing-title span:nth-child(1) {
+  font-size: 50px;
+  display: block;
+}
+.pricing-inner-wrapper .pricing-title span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 300;
+}
+.pricing-inner-wrapper .pricing-description {
+  color: #b8b8b8;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0px;
+  min-height: 70px;
+}
+
+.pricing-inner-wrapper .pricing-buttons {
+  text-align: center;
+}

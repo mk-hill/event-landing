@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import BuyButton from '../ui/BuyButton';
 
 class Discount extends Component {
   state = {
@@ -38,9 +39,9 @@ class Discount extends Component {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur quibusdam accusantium ratione sed illum tenetur
                 quae! Sequi quaerat iusto doloremque, dignissimos error natus
-                distinctio, fugit, reprehenderit alias quo dolor dolore!
+                distinctio, fugit!
               </p>
-              <div>button goes here</div>
+              <BuyButton url="" />
             </div>
           </Slide>
         </div>
